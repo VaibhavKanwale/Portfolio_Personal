@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7371fd8362.js" crossorigin="anonymous"></script>
+<body>
+    <div id ="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li><a href="#contact">Contact </a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>PYTHON Developer</p>
+                <h1>Hi,I'm <span> Vaibhav Kanwale </span><br>From Umarkhed,Maharastra </h1>
+            </div>
+        </div>
+    </div>
+   <!---------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <img src="/images/WhatsApp Image 2024-07-15 at 16.33.25_d5933fc0.jpg">  
+                 </div>                
+                     <div class="about-col-2">
+                     <h1 class="sub-title">About Me</h1>
+                     <p>Enthusiastic Python Developer with a strong foundation in core Python concepts and a passion for creating innovative solutions.Skilled in object-oriented programming.Created a Python  Project to help and having Eagerness to learn and contribute to a team environment.</p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Soft skills')">Soft Skillls</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <Span>OS</Span><br>Designing Web/App interfaces
+                            </li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Database Software's </span><br>Connecting Database and Storing Data </li>
+                            
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <Span>2024-Pursuing </Span><br>MSc in Computer Science From Amaravati University</li>
+                            <li><span>2018-2021</span><br>BSc in Computer Science From Sant Gadge Baba University Amravati</li>
+                            <li><span>2018</span><br>Intermediate (Maharastra State Board) from MGM college Basmat </li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id ="Soft skills">
+                        <ul>
+                            <li><span>Problem-Solving</span><br>Analytical thinking<br>Creativity</li>
+                            <li><span>Learning and Growth</span><br>Curiosity<br>Quick Learner<br>Openness to feedback</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>ATM-Process</h2>
+                        <p>-> Developed a program that mimics real-world ATM operations like balance inquiries, cash withdrawals, and potentially deposits.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    
+                </div>
+
+        </div>
+    </div>
+    <!---Portfolio---->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://img.freepik.com/free-vector/gradient-digital-signage-illustration_23-2150244612.jpg?t=st=1721044822~exp=1721048422~hmac=1f286df08388c58d0716ff465f01f5cfb2a3dd69bbed41635ae584e93114f864&w=740" alt="pic">
+                    <div class="layer">
+                        <h3>ATM-Machine</h3>
+                        <p> Implement validation checks: Ensure users enter valid data (e.g., numeric PINs) and handle errors gracefully (e.g., insufficient balance for withdrawal).</p>
+                        <a href="https://github.com/VaibhavKanwale/ATM_Project">Link</a>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    
+                    <img src="https://img.freepik.com/free-vector/isometric-self-service-cashier_23-2148557087.jpg?t=st=1721044878~exp=1721048478~hmac=7c045ea8f3cf692418c18edde448e5e4fabd642a6238ba3a65ef33d37b3d4753&w=740" alt="pic">
+                    <div class="layer">
+                        <h3>Designing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, laboriosam?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <a href="#"class="btn">See more</a>
+    </div>
+    <!---Contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                        <h1 class="subt-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>nikitapatra1502@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>7328867796</p>
+                        <div class="social-icons">
+                            <a href=" https://www.instagram.com/invites/contact/?igsh=14iwsv5dived2&utm_content=gm789g6"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/nikita-patra-2395452bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Nikitaaa15"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="/images/PYHTHON VAIBHAV RAJESH KANWALE RASUME word file.docx" class="btn btn2">Download Cv</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name='submit-to-google-sheet' >
+                            <input type=" text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i>Nikita made with <i class="fa-solid fa-heart"></i>by GreatStack. </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemenu =document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby_TNsQ9UMilDgx5EyOa_tZByqmUstYK5uUg1d1J8e4NhN71ndrMSqp8a6yigdGLcDeuQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+            })
+            form.reset()
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>   
